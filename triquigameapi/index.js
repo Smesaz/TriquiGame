@@ -33,11 +33,11 @@ app.use('/records', getRecords);
 // Default route 
 app.get('*', (req,res) => { res.send("Non existent route.") });
 
-const PORT = process.env.PORT || 3001;
+const port = process.env.PORT || 3001;
 
 conn.sync({force:false}).then(()=>{
 	// console.log(`Node environment: ${process.env.DB_USER}`);
-	app.listen(PORT, ()=>{
-		console.log(`Escuchando Port ${PORT}`);
+	app.listen(port, ()=>{
+		console.log(`Escuchando Port ${port}`);
 	});
 });
