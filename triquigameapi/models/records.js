@@ -2,8 +2,14 @@ const {DataTypes} = require('sequelize');
 
 module.exports = (sequelize) =>{
     sequelize.define(
-        "Record",
+        "record",
         {
+            id:{
+                type: DataTypes.INTEGER,
+                allowNull: false,
+                autoIncrement:true,
+                primaryKey:true,
+            },
             winner:{
                 type: DataTypes.STRING,
                 allowNull:false,
@@ -18,7 +24,6 @@ module.exports = (sequelize) =>{
                 type: DataTypes.STRING,
                 allowNull: false,
                 allowEmpty: false,
-                unique:true,
             },
         },
         {

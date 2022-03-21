@@ -4,7 +4,7 @@ const {getRecords} = require('../controllers');
 
 router.get('/', async(req,res) => {
     try {
-        let result = getRecords();
+        let result = await getRecords();
         res.status(201).json({msg: result});
     } catch (error) {
 

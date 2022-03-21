@@ -1,7 +1,7 @@
 const {Record} = require('../models');
 
 module.exports = async(winner, loser, date) => {
-    if(winner, loser, date){
+    if(winner && loser && date){
         await Record.create({
             winner: winner,
             loser: loser,

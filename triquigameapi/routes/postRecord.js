@@ -6,7 +6,7 @@ const {postRecord} = require('../controllers');
 router.post('/', async(req,res) => {
     try {
         const {winner, loser, date} = req.body;
-        let result = postRecord(winner, loser, date);
+        let result = await postRecord(winner, loser, date);
         res.status(201).json({msg: result});
     } catch (error) {
 
