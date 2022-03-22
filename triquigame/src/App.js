@@ -1,7 +1,7 @@
 import React from "react";
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Game from "./Game.js";
-import Records from "./Records";
+import Game from "./Game/Game.js";
+import Records from "./Records/Records";
 
 const App = () => {
     return(

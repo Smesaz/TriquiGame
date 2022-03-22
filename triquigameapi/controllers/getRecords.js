@@ -15,5 +15,9 @@ module.exports = async() => {
             }
         });
     }
-    return "There isn't historial games";
+    return [{
+        winner: "-",
+        loser: "-",
+        date: "-",
+    }];
 }
