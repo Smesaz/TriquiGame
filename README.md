@@ -1,4 +1,4 @@
-# Triqui Game 🎰
+# Triqui Game 🎲
 
 - 📁 triquigame: Configuración del frontend en React
 - 📁 triquigameapi: Configuración del backend en NodeJS
