@@ -14,6 +14,6 @@ En 📁 triquigameapi: ejecutar `npm install` para instalar todas las dependenci
 
 Ejecutarlo en cada una de las carpetas para levantar dos servidores. 
 
-- El **Backend** en  [http://localhost:3001](http://localhost:3001).
-- El **Frontend** en [http://localhost:3000](http://localhost:3000).
+- El **Backend** es el  [http://localhost:3001](http://localhost:3001).
+- El **Frontend** es el [http://localhost:3000](http://localhost:3000).
 
