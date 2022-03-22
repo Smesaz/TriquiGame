@@ -28,22 +28,22 @@ const Records = () => {
             </div>
             <div className='subcontainer_2'>
                 {isLoading? <Ring />:
-                records.map(h => {
-                    return(
                         <table className="table">
                         <tr>
                           <th>Winner</th>
                           <th>Loser</th>
                           <th>Date</th>
                         </tr>
+                {records.map(h => {
+                    return(
                         <tr>
                           <td>{h.winner}</td>
                           <td>{h.loser}</td>
                           <td>{h.date}</td>
                         </tr>
-                        </table>
                     )
-                })
+                })}
+                </table>
                 }
             </div>
         </div>

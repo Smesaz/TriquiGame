@@ -31,6 +31,8 @@
 
 .subcontainer_2{
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .table{
@@ -49,7 +51,8 @@
 .table td {
     background-color: #eee;
     text-align: center;
-    padding: 10px 15px;
+    width: auto;
+    padding: 10px 35px;
   }
 
 @media screen and (max-width: 900px) {
